@@ -4,10 +4,10 @@ n = int(input("Введите первое число"))
 m = int(input("Введите второе число"))
 k = int(input("Введите третье число"))
 
-s = k
+# if m > k:
 while n != 0:
-    if s % m == 0 and s > k:
+    if k % m == 0:
         n -= 1
-        print(s, end=" ")
+        print(k, end=" ")
 
-    s += 1
+    k += 1
