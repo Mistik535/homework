@@ -14,5 +14,4 @@ list_of_cities = {"Germany": ["Berlin", "Frankfurt", "Munich"],
 
 city_to_find = input("Введите название города: ")
 result = country_finding(city_to_find, list_of_cities)
-if result != "Город не найден":
-    print(f"Город {city_to_find} находится в стране {result}.")
+print(f"Город {city_to_find} находится в стране {result}.")
