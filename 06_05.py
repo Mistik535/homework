@@ -11,7 +11,7 @@ def number_reversed(number_list):
         number_list[start_point], number_list[end_point] = number_list[end_point], number_list[start_point]
         start_point += 1
         end_point -= 1
-        return number_list
+    return number_list
 
 
 number_reversed(number_list)
