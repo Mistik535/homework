@@ -3,5 +3,5 @@
 
 list_random = [3.45, 6.54, 55, 34343, -0.111, -6564, "hello", "world", 0]
 
-ready_list = list(filter(lambda x: isinstance(x, str), list_random))
-print(ready_list)
+list_random[:] = filter(lambda x: isinstance(x, str), list_random)
+print(list_random)
